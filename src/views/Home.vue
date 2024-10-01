@@ -69,23 +69,23 @@ onMounted(() => {
 
             <div class="grid md:grid-cols-2 gap-5">
 
-                <ProjectCard title="CNAME.sh" link="https://cname.sh"
+                <ProjectCard title="CNAME.sh" link="https://cname.sh" img="cname-dark.png"
                     desc="An upcoming platform that offers Dynamic DNS, DNS load balancing, Geo-routing and health-checks. I made the backend, the frontend and the landing website."
                     :tags='["Go", "Vue.js", "CockroachDB", "RabbitMQ", "TypeScript"]' />
 
-                <ProjectCard title="MoneroPay" link="https://moneropay.eu"
+                <ProjectCard title="MoneroPay" link="https://moneropay.eu" img="moneropay.png"
                     desc="The most popular payment processor for the Monero cryptocurrency. Written in Go and uses frameworks such as go-chi and zerolog."
                     :tags='["Go", "PostgreSQL", "SQLite"]' />
 
-                <ProjectCard title="The Monero ATM Project" link="https://atm.monero.is"
+                <ProjectCard title="The Monero ATM Project" link="https://atm.monero.is" img="monero-atm.png"
                     desc="Open-source cryptocurrency ATM. All component communication happens over MQTT. Frontend is in Vue.js and has i18n support. For security, no wallet or keys are stored locally."
                     :tags='["Go", "MQTT", "IoT", "Vue.js", "TypeScript"]' />
 
-                <ProjectCard title="VPN Application"
+                <ProjectCard title="VPN Application" img="poisonvpn.png"
                     desc="A proprietary VPN application/infrastructure I designed and programmed for a client. It's written in Go and uses xray-core. The backend consists of agents and a management server communicating in a private API secured by self-signed certificates. I used Vue.js for the management panel."
                     :tags='["Go", "Vue.js", "TypeScript"]' />
 
-                <ProjectCard title="Website for Digilol" link="https://www.digilol.net"
+                <ProjectCard title="Website for Digilol" link="https://www.digilol.net" img="digilolwebsite.png"
                     desc="The website for Digilol that I built using Vitepress with custom components in Vue.js."
                     :tags='["Vue.js", "TypeScript"]' />
             </div>
@@ -112,7 +112,7 @@ onMounted(() => {
                 <a class="mr-3" href="https://matrix.to/#/@siren:kernal.eu">
                     <MatrixIcon size="35px" />
                 </a>
-                <a class="https://www.linkedin.com/in/installgentoo">
+                <a href="https://www.linkedin.com/in/installgentoo">
                     <LinkedInIcon size="35px" />
                 </a>
             </div>

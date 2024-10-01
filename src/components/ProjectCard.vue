@@ -31,7 +31,8 @@ const getTagColor = (tag: string) => {
 
 <template>
     <div class="rounded overflow-hidden shadow-lg dark:bg-gray-900">
-        <img class="w-full" src="https://v1.tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+      <img v-if="img" class="w-full" :src="img" alt="Sunset in the mountains">
+      <img v-else class="w-full" src="https://v1.tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
         <div class="px-6 py-4">
             <div class="mb-2"><span class="font-bold text-xl mr-2">{{ title }}</span><span v-if="link" class="text-gray-700 dark:text-gray-200 text-base">— <a :href="link" class="underline">{{ link }}</a></span></div>
             <p class="text-gray-700 dark:text-gray-200 text-base text-md">
