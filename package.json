@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.1.5",
+    "@vueuse/core": "^11.1.0",
     "vue": "^3.4.21",
     "vue-router": "^4.4.5",
+    "vue3-marquee": "^4.2.2",
     "vue3-simple-icons": "^13.2.0"
   },
   "devDependencies": {

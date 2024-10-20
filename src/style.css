@@ -22,3 +22,13 @@
   font-display: swap;
   src: url("./assets/fonts/InterVariable-Italic.woff2") format("woff2");
 }
+
+.micro-5-charted-regular {
+  font-family: "Micro 5 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.list-inside a, p a, span a {
+  color: orangered;
+}
