@@ -12,7 +12,7 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url("./assets/fonts/InterVariable.woff2") format("woff2");
+  src: url("./assets/fonts/inter/InterVariable.woff2") format("woff2");
 }
 
 @font-face {
@@ -20,7 +20,13 @@
   font-style: italic;
   font-weight: 100 900;
   font-display: swap;
-  src: url("./assets/fonts/InterVariable-Italic.woff2") format("woff2");
+  src: url("./assets/fonts/inter/InterVariable-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Micro 5 Charted";
+  font-style: normal;
+  src: url("./assets/fonts/charted/Micro5Charted-Regular.ttf");
 }
 
 .micro-5-charted-regular {

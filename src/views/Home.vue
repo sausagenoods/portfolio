@@ -85,7 +85,7 @@ onMounted(() => {
                     class="text-xl bg-transparent hover:bg-black dark:hover:bg-white text-black dark:text-white font-semibold hover:text-white dark:hover:text-black py-2 px-4 border border-black dark:border-white hover:border-transparent rounded transition-colors">Projects</a>
                 <a href="/#blog"
                     class="text-xl bg-transparent hover:bg-black dark:hover:bg-white text-black dark:text-white font-semibold hover:text-white dark:hover:text-black py-2 px-4 border border-black dark:border-white hover:border-transparent rounded transition-colors">Blog</a>
-                <a href="https://kernal.eu/~siren/cv.pdf"
+                <a href="/cv.pdf"
                     class="text-xl bg-transparent hover:bg-black dark:hover:bg-white text-black dark:text-white font-semibold hover:text-white dark:hover:text-black py-2 px-4 border border-black dark:border-white hover:border-transparent rounded transition-colors">CV</a>
             </div>
             <div class="flex justify-center mt-10">
