@@ -104,25 +104,36 @@ onMounted(() => {
 
             <div class="grid md:grid-cols-2 gap-5">
 
+
                 <ProjectCard title="CNAME.sh" link="https://cname.sh" img="cname-dark.webp"
                     desc="An upcoming platform that offers Dynamic DNS, DNS load balancing, Geo-routing and health-checks. I made the backend, the frontend and the landing website."
                     :tags='["Go", "Vue.js", "CockroachDB", "RabbitMQ", "TypeScript"]' />
+                
+		<ProjectCard title="The Monero ATM Project" link="https://atm.monero.is" img="monero-atm.webp"
+                    desc="Open-source cryptocurrency ATM. All component communication happens over MQTT. Frontend is in Vue.js and has i18n support. For security, no wallet or keys are stored locally."
+                    :tags='["Go", "MQTT", "IoT", "Vue.js", "TypeScript"]' />
+                
+		<ProjectCard title="Metronero" link="https://github.com/metronero" video="metronero.webm"
+                    desc="Multi-merchant, highly customizable and scalable checkout and PoS system for the Monero cryptocurrency."
+                    :tags='["Go", "Vue.js", "PostgreSQL"]' />
+                
+		<ProjectCard title="Website for Digilol" link="https://www.digilol.net" video="digilol.webm"
+                    desc="The website for Digilol that I built using Vitepress with custom components in Vue.js."
+                    :tags='["Vue.js", "TypeScript"]' />
+
+                <ProjectCard title="Turkish Formant Speech Synthesizer" link="https://youtu.be/GelelqJ59tU" img="lapic.png"
+                    desc="A simple speech synthesizer that uses LPC decoding. It's possible for it to speak other languages in Turkish-ified form with a funny accent. Click the link for a demo of the synthesizer singing Daisy Bell."
+                    :tags='["C", "C++"]' />
+
+		<ProjectCard title="VPN Application" img="poisonvpn.webp"
+                    desc="A proprietary VPN application/infrastructure I designed and programmed for a client. It's written in Go and uses xray-core. The backend consists of agents and a management server communicating in a private API secured by self-signed certificates. I used Vue.js for the management panel."
+                    :tags='["Go", "Vue.js", "TypeScript"]' />
 
                 <ProjectCard title="MoneroPay" link="https://moneropay.eu" img="moneropay.webp"
                     desc="The most popular payment processor for the Monero cryptocurrency. Written in Go and uses frameworks such as go-chi and zerolog."
                     :tags='["Go", "PostgreSQL", "SQLite"]' />
 
-                <ProjectCard title="The Monero ATM Project" link="https://atm.monero.is" img="monero-atm.webp"
-                    desc="Open-source cryptocurrency ATM. All component communication happens over MQTT. Frontend is in Vue.js and has i18n support. For security, no wallet or keys are stored locally."
-                    :tags='["Go", "MQTT", "IoT", "Vue.js", "TypeScript"]' />
 
-                <ProjectCard title="VPN Application" img="poisonvpn.webp"
-                    desc="A proprietary VPN application/infrastructure I designed and programmed for a client. It's written in Go and uses xray-core. The backend consists of agents and a management server communicating in a private API secured by self-signed certificates. I used Vue.js for the management panel."
-                    :tags='["Go", "Vue.js", "TypeScript"]' />
-
-                <ProjectCard title="Website for Digilol" link="https://www.digilol.net" img="digilolwebsite.webp"
-                    desc="The website for Digilol that I built using Vitepress with custom components in Vue.js."
-                    :tags='["Vue.js", "TypeScript"]' />
             </div>
 
             <p class="text-xl md:text-2xl mt-10 mb-2 text-center">You can find more of my projects and libraries on my
