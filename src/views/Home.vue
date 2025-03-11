@@ -61,8 +61,9 @@ onMounted(() => {
                             <li class="mb-2 text-xl md:text-2xl">I'm mainly a Go and Vue.js/TypeScript developer.</li>
                             <li class="mb-2 text-xl md:text-2xl">I system-administer an awesome community called <a
                                     href="https://kernal.eu" class="italic underline">kernal.eu</a>.</li>
-                            <li class="mb-2 text-xl md:text-2xl">I'm a <a class="italic underline"
-                                    href="https://kernal.eu/~siren/pentestplus.pdf">certified</a> penetration tester.
+                            <li class="mb-2 text-xl md:text-2xl">I'm a certified penetration tester (<a class="italic underline"
+                                    href="https://kernal.eu/~siren/pentestplus.pdf">Pentest+</a>) and Kubernetes administrator (<a
+				    class="italic underline" href="https://kernal.eu/~siren/cka.pdf">CKA</a>).
                             </li>
                             <li class="mb-2 text-xl md:text-2xl">I'm a free software advocate and a Linux user of ~10
                                 years.
